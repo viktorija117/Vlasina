@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Vlasina</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">V L A S I N A</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link active-link">Početna</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="istorija.html" class="nav__link">Istorija</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="znamenitosti.html" class="nav__link">Znamenitosti</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="pijaca.html" class="nav__link">Naša pijaca</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="pocetna">
+                <img src="assets/img/vlasina.jpeg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__data-title">Najveći biser<br><b>jugoistočne<br>Srbije</b></h1>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">Kontaktirajte nas za više informacija!</span>
+                            <a href="tel:+381601234567" class="button button--flex button--link home__info-button">
+                                Pozovi <i class="ri-phone-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/vlasina1.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== HOUSES ====================-->
+            <section class="house section" id="house">
+                <h2 class="section__title">Rezerviši smeštaj na vreme!</h2>
+
+                <div class="house__container container grid">
+                    <!--==================== HOUSE CARD 1 ====================-->
+                    <div class="house__card">
+                        <img src="assets/img/kuca1.webp" alt="" class="house__img">
+                        
+                        <div class="house__content">
+                            <span class="house__rating">
+                                <i class="ri-star-line house__rating-icon"></i>
+                                <span class="house__rating-number">4,5</span>
+                            </span>
+
+                            <div class="house__data">
+                                <h3 class="house__title">KUĆA 1</h3>
+                                <span class="house__subtitle">Cena po noćenju</span>
+                                <span class="house__price">5.000 RSD</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex house__button">
+                            <a href="tel:+381612345678" style="text-decoration: none; color: white;"><i class="ri-phone-line"></i></a></i>
+                        </button>
+                    </div>
+
+                    <!--==================== HOUSE CARD 2 ====================-->
+                    <div class="house__card">
+                        <img src="assets/img/kuca2.webp" alt="" class="house__img">
+                        
+                        <div class="house__content">
+                            <span class="house__rating">
+                                <i class="ri-star-line house__rating-icon"></i>
+                                <span class="house__rating-number">5,0</span>
+                            </span>
+
+                            <div class="house__data">
+                                <h3 class="house__title">KUĆA 2</h3>
+                                <span class="house__subtitle">Mesećno iznajmljivanje</span>
+                                <span class="house__price">180.000 RSD</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex house__button">
+                            <a href="tel:+381612345678" style="text-decoration: none; color: white;"><i class="ri-phone-line"></i></a></i>
+                        </button>
+                    </div>
+
+                    <!--==================== HOUSE CARD 3 ====================-->
+                    <div class="house__card">
+                        <img src="assets/img/kuca3.webp" alt="" class="house__img">
+                        
+                        <div class="house__content">
+                            <span class="house__rating">
+                                <i class="ri-star-line house__rating-icon"></i>
+                                <span class="house__rating-number">4,9</span>
+                            </span>
+
+                            <div class="house__data">
+                                <h3 class="house__title">KUĆA 3</h3>
+                                <span class="house__subtitle">Cena po noćenju</span>
+                                <span class="house__price">9.000 RSD</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex house__button">
+                            <a href="tel:+381612345678" style="text-decoration: none; color: white;"><i class="ri-phone-line"></i></a></i>
+                        </button>
+                    </div>
+
+                    <!--==================== HOUSE CARD 4 ====================-->
+                    <div class="house__card">
+                        <img src="assets/img/kuca4.webp" alt="" class="house__img">
+                        
+                        <div class="house__content">
+                            <span class="house__rating">
+                                <i class="ri-star-line house__rating-icon"></i>
+                                <span class="house__rating-number">4,8</span>
+                            </span>
+
+                            <div class="house__data">
+                                <h3 class="house__title">KUĆA 4</h3>
+                                <span class="house__subtitle">Cena nedeljno iznajmljivanje</span>
+                                <span class="house__price">42.000 RSD</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex house__button">
+                            <a href="tel:+381612345678" style="text-decoration: none; color: white;"><i class="ri-phone-line"></i></a></i>
+                        </button>
+                    </div>
+
+                    <!--==================== HOUSE CARD 5 ====================-->
+                    <div class="house__card">
+                        <img src="assets/img/kuca5.webp" alt="" class="house__img">
+                        
+                        <div class="house__content">
+                            <span class="house__rating">
+                                <i class="ri-star-line house__rating-icon"></i>
+                                <span class="house__rating-number">4,8</span>
+                            </span>
+
+                            <div class="house__data">
+                                <h3 class="house__title">KUĆA 5</h3>
+                                <span class="house__subtitle">Cena po noćenju</span>
+                                <span class="house__price">6.000 RSD</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex house__button">
+                            <a href="tel:+381612345678" style="text-decoration: none; color: white;"><i class="ri-phone-line"></i></a></i>
+                        </button>
+                    </div>
+                </div>
+                
+            </section>
+            
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Video Tura</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">
+                        U video prilogu ispod, možete pogledati kako izgledaju Vlasinsko jezero i njegova okolina. 
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file" poster="assets/img/vlasina3.jpg">
+                            <source src="assets/video/Vlasina2.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EMAIL ====================-->
+            <section class="email section">
+                <div class="email__bg">
+                    <div class="email__container container">
+                        <h2 class="section__title email__title">Prijavite se za naredni izlet!</h2>
+                        <p class="email__description">Prijavom preko sajta dobijate 30% popusta na ceo program obilaska.
+                        </p>
+    
+                        <form action="" class="email__form">
+                            <input type="text" placeholder="Unesi email" class="email__input">
+    
+                            <button class="button">
+                                Prijavi se
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Vlasina</h3>
+                        <p class="footer__description">
+                            Posetite najlepši biser<br>jugoistočne Srbije.
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Podrška</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Najčešća pitanja</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Centar za podršku</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Kontaktirajte nas</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2024 Vlasina. Sva prava zadržana.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Uslovi i ugovori</a>
+                        <a href="#" class="footer__terms-link">Politika privatnosti</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
